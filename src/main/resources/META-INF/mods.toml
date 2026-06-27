@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="beautifulexpansivebiomes"
+version="${file.jarVersion}"
+displayName="Beautiful Expansive Biomes"
+authors="RevSkyMC"
+description='''
+Enhances Overworld biomes with more vegetation, features, and structures for beauty and expansiveness.
+Compatible with other biome mods.
+'''
+
+[[dependencies.beautifulexpansivebiomes]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.beautifulexpansivebiomes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
